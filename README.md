@@ -1,4 +1,4 @@
-# Data Structures 
+# Data Structures :
 
 Topics:
  * Singly Linked Lists
@@ -12,7 +12,7 @@ Stretch Goals:
  * Heaps
  * AVL Trees
 
-## Completion Requirements
+## Completion Requirements:
  * Module 1: Implement the Stack and Queue classes using built-in Python lists and the Node and LinkedList classes you created during the Module 1 Guided Project.
  * Module 2: Implement the Doubly Linked List class
  * Module 3: Implement the Binary Search Tree class
@@ -20,13 +20,13 @@ Stretch Goals:
  
  > NOTE: The quickest and easiest way to reliably import a file in Python is to just copy and paste the file you want to import into the same directory as the file that wants to import. This obviously isn't considered best practice, but it is the most reliable way to do it across all platforms.  If the import isn't working, feel free to try this method.
 
-### Stacks
+### Stacks:
 * Should have the methods: `push`, `pop`, and `len`.
    * `push` adds an item to the top of the stack.
    * `pop` removes and returns the element at the top of the stack
    * `len` returns the number of elements in the stack.
 
-### Queues
+### Queues:
  * Has the methods: `enqueue`, `dequeue`, and `len`.
    * `enqueue` adds an element to the back of the queue.
    * `dequeue` removes and returns the element at the front of the queue.
@@ -34,7 +34,7 @@ Stretch Goals:
  
 ![Image of Queue](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/600px-Data_Queue.svg.png)
 
-### Doubly Linked Lists
+### Doubly Linked Lists:
  * The `ListNode` class, which represents a single node in the doubly-linked list, has already been implemented for you. Inspect this code and try to understand what it is doing to the best of your ability.
  * The `DoublyLinkedList` class itself should have the methods: `add_to_head`, `add_to_tail`, `remove_from_head`, `remove_from_tail`, `move_to_front`, `move_to_end`, `delete`, and `get_max`.
    * `add_to_head` replaces the head of the list with a new value that is passed in.
